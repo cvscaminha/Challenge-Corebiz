@@ -1,22 +1,22 @@
 <h1 align="center">
     Corebiz Challenge (2021)
 </h1>
-##### O projeto consiste em criar uma Single Page Application (SPA) de e-commerce, consumindo uma API de produtos para exibição na vitrine e, uma API de newsletter para captura de dados (nome e e-mail).
+O projeto consiste em criar uma Single Page Application (SPA) de e-commerce, consumindo uma API de produtos para exibição na vitrine e, uma API de newsletter para captura de dados (nome e e-mail).
 
-<p align="center">
-  [Preview](#preview)&nbsp;|&nbsp; 
-  [Tecnologias e Recursos](#tec)&nbsp;|&nbsp;
-  [Funcionalidades](#func)&nbsp;|&nbsp;
-  [Wireframe](#wire)&nbsp;|&nbsp;
-  [Deploy](#deploy)&nbsp;|&nbsp;
-  [Autor](#autor)&nbsp;|&nbsp;
-</p>
+
+
+[TOC]
+
 
 ---
 
-```
-👀 Preview <a name = "preview"></a>
-```
+#### 👀 Preview
+
+
+
+<h1 align="center">
+    <img alt="Desafio Corebiz" title="Desafio Corebiz" src="src/assets/images/previewChallenge.png" />
+</h1>
 
 
 
@@ -85,10 +85,10 @@ Além disto, é bom ter um editor para trabalhar com o código como [VSCode](htt
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/agnaldo26/gobeyond-final-challenge.git
+$ git clone https://github.com/cvscaminha/Challenge-Corebiz.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd gobeyond-final-challenge
+$ cd Challenge-Corebiz
 
 # Instale o yarn (se ainda não estiver instalado)
 $ npm install -g yarn
@@ -105,7 +105,10 @@ $ yarn start
 # Inicie o executor de teste no modo de observação interativo.
 $ yarn test
 
-# Compila o aplicativo para produção na pasta `Dist`. Ele agrupa corretamente o React no modo de produção e otimiza a construção para o melhor desempenho. A compilação é reduzida e os nomes dos arquivos incluem os hashes. Seu aplicativo está pronto para ser implantado!
+# Compila o aplicativo para produção na pasta `Dist`.
+#Ele agrupa corretamente o React no modo de produçãoe otimiza a construção para o melhor desempenho.
+#A compilação é reduzida e os nomes dos arquivos incluem os hashes.
+#Seu aplicativo está pronto para ser implantado!
 $ yarn build
 
 ```
@@ -131,12 +134,6 @@ $ yarn build
 
 Feito com&ensp;❤️&ensp;por Cristiano V S Caminha&ensp;
 
-[![Linkedin Badge](https://img.shields.io/badge/-Cristiano%20Caminha-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cristianocaminha/)](https://www.linkedin.com/in/kjuslenelobeu/)
+[![Linkedin Badge](https://img.shields.io/badge/-Cristiano%20Caminha-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cristianocaminha/)](https://www.linkedin.com/in/cristianocaminha/)
 
 
-
---------------
-
-#### 📝 Licença
-
-Este projeto está sob a licença [MIT](./LICENSE).
