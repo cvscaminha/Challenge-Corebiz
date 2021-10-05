@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./App.css";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Products from "./components/Products/Products";
+import Newsletter from "./components//Newsletter/Newsletter";
+import SucessNews from "./components/SucessNews/SucessNews";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    /* Retorna os componentes do APP */
+    <BrowserRouter>
+      <Switch>
+        <div>
+          <Route
+            path="/"
+            exact
+            render={() => (
+              <>
+                <Header />
+                <Main />
+                <Products />
+                <Newsletter />
+                <Footer />
+              </>
+            )}
+          />
+          <Route
+            path="/SucessNews"
+            render={() => (
+              <>
+                <Header />
+                <Main />
+                <Products />
+                <SucessNews />
+                <Footer />
+              </>
+            )}
+          />
+        </div>
+      </Switch>
+    </BrowserRouter>
   );
 }
 

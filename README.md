@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+<h1 align="center">
+    Corebiz Challenge (2021)
+</h1>
+##### O projeto consiste em criar uma Single Page Application (SPA) de e-commerce, consumindo uma API de produtos para exibição na vitrine e, uma API de newsletter para captura de dados (nome e e-mail).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  [Preview](#preview)&nbsp;|&nbsp; 
+  [Tecnologias e Recursos](#tec)&nbsp;|&nbsp;
+  [Funcionalidades](#func)&nbsp;|&nbsp;
+  [Wireframe](#wire)&nbsp;|&nbsp;
+  [Deploy](#deploy)&nbsp;|&nbsp;
+  [Autor](#autor)&nbsp;|&nbsp;
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+```
+👀 Preview <a name = "preview"></a>
+```
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+#### 🛠 Tecnologias e Recursos 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] HTML5, CSS3, Javascript
+- [x] ReactJS (Styled Components, UseState, UseEffect)
+- [x] Axios
+- [x] Webpack, Webpack Dev Server e Babel
+- [x] Clean Webpack Plugin, HTML Webpack Plugin
+- [x] React Fast Refresh
+- [x] React Elastic Carousel
+- [x] React Router DOM
+- [x] Local Storage
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### ✨ Funcionalidades
 
-### `yarn eject`
+- [x]  Layout responsivo
+- [ ]  Menu na versão mobile
+- [x]  Pegar os dados dos produtos e construir uma vitrine através de uma API utilizando `axios`
+- [x]  Exibição desse dados da API utilizando o método `map()` para percorrer e listar os elementos conforme a aplicação
+- [x]  Ao clicar no botão "Comprar" deve ser incrementada a quantidade de itens no carrinho, persistindo mesmo depois da atualização da página
+- [x]  Formulário de contato com validações dos campos (se o e-mail for inválido ou o nome estiver vazio) e envio dos dados (nome e e-mail) para a API de Newsletter
+- [x]  Exibição dos produtos em carrosel
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+----
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### 🎨 Wireframe
 
-## Learn More
+A representação visual da página está disponível no Figma:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://www.figma.com/file/awhTJyKgrjEOqPHUrrFBv0/Corebiz---Frontend-Challenge?node-id=0%3A1
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+#### 🚀 Deploy da Aplicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feito deploy da aplicação no Heroku:
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### 💻 Como executar o projeto
 
-### `yarn build` fails to minify
+##### Pré-requisitos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/)
+Além disto, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+##### 🧭 Rodando a aplicação web (Frontend)
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/agnaldo26/gobeyond-final-challenge.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd gobeyond-final-challenge
+
+# Instale o yarn (se ainda não estiver instalado)
+$ npm install -g yarn
+
+# Instale as dependências
+$ yarn install
+
+# Execute a aplicação no modo de desenvolvimento
+$ yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# A página será recarregada se você fizer edições. Você também verá quaisquer erros de lint no console.
+
+# Inicie o executor de teste no modo de observação interativo.
+$ yarn test
+
+# Compila o aplicativo para produção na pasta `Dist`. Ele agrupa corretamente o React no modo de produção e otimiza a construção para o melhor desempenho. A compilação é reduzida e os nomes dos arquivos incluem os hashes. Seu aplicativo está pronto para ser implantado!
+$ yarn build
+
+```
+
+
+---
+
+#### 💪 Como contribuir no projeto
+
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+5. Criar um Pull Request
+
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+
+
+---
+
+#### 🦸 Autor
+
+Feito com&ensp;❤️&ensp;por Cristiano V S Caminha&ensp;
+
+[![Linkedin Badge](https://img.shields.io/badge/-Cristiano%20Caminha-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cristianocaminha/)](https://www.linkedin.com/in/kjuslenelobeu/)
+
+
+
+--------------
+
+#### 📝 Licença
+
+Este projeto está sob a licença [MIT](./LICENSE).
