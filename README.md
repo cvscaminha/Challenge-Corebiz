@@ -5,8 +5,6 @@ O projeto consiste em criar uma Single Page Application (SPA) de e-commerce, con
 
 
 
-[TOC]
-
 
 ---
 
@@ -64,9 +62,9 @@ https://www.figma.com/file/awhTJyKgrjEOqPHUrrFBv0/Corebiz---Frontend-Challenge?n
 
 #### 🚀 Deploy da Aplicação
 
-Feito deploy da aplicação no Heroku:
+Feito deploy da aplicação no Netlify:
 
-
+https://cvscaminha-challenge-corebiz.netlify.app/
 
 
 
@@ -135,5 +133,4 @@ $ yarn build
 Feito com&ensp;❤️&ensp;por Cristiano V S Caminha&ensp;
 
 [![Linkedin Badge](https://img.shields.io/badge/-Cristiano%20Caminha-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cristianocaminha/)](https://www.linkedin.com/in/cristianocaminha/)
-
 
